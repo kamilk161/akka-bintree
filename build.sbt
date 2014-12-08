@@ -1,7 +1,9 @@
 name := "BinTree"
+
 version := "1.0"
 
 scalaVersion := "2.11.4"
+
 scalacOptions ++= Seq("-deprecation", "-feature")
 
 libraryDependencies ++= {
@@ -14,4 +16,5 @@ libraryDependencies ++= {
 }
 
 Revolver.settings
+
 javaOptions in Revolver.reStart += "-Dfile.encoding=utf8"
